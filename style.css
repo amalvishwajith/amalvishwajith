@@ -1,0 +1,89 @@
+
+
+#amalvishwajith {
+    background-image: url("assets/bg/bg.svg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+  }
+
+  #avhead .nav-item {
+    /* background-image: url("assets/bg/headbg.svg");
+    background-repeat: no-repeat;
+    background-size: contain; */
+    font-size: large;
+  }
+  #avhead .col-xxl-1 {
+    /* background-image: url("assets/bg/headbg.svg");
+    background-repeat: no-repeat;
+    background-size: contain; */
+    background-color: #F8F9FA;
+  }
+#avstg1 {
+    height: 85vh;
+  }
+   
+#avstg3 img {
+    width: 70px;
+  }
+
+
+  #amalvishwajith h1 {
+    /* background-image: url("assets/bg/headbg.svg");
+    background-repeat: no-repeat;
+    background-size: contain; */
+    font-size:70px;
+    
+  }
+
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: blue;
+    display: none;
+    width: 50px;
+    height: 50px;
+  }
+
+
+  /* ====================TYPE */
+  .avwrapper {
+    /*This part is important for centering*/
+    display: grid;
+  }
+  
+  .avtyping-demo {
+    width: 220px;
+    animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 30px;
+    animation-iteration-count:infinite;
+  }
+  
+  @keyframes typing {
+    0% {
+        width:0px
+    }
+    50% {
+        width:360px
+    }
+    100% {
+        width:360px
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  /* ========================= */
+
+
+
+
+  
