@@ -1,0 +1,94 @@
+
+
+#amalvishwajith {
+    background-image: url("assets/bg/bg.svg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+  #propic {
+    width:300px;
+    
+  }
+}
+
+  #avhead .nav-item {
+    /* background-image: url("assets/bg/headbg.svg");
+    background-repeat: no-repeat;
+    background-size: contain; */
+    font-size: large;
+  }
+  #avhead .col-xxl-1 {
+    /* background-image: url("assets/bg/headbg.svg");
+    background-repeat: no-repeat;
+    background-size: contain; */
+    background-color: #F8F9FA;
+  }
+#avstg1 {
+    height: 85vh;
+  }
+   
+#avstg3 img {
+    width: 50px;
+  }
+
+
+  #amalvishwajith h1 {
+    /* background-image: url("assets/bg/headbg.svg");
+    background-repeat: no-repeat;
+    background-size: contain; */
+    font-size:70px;
+    
+  }
+
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    color:dimgray;
+    display: none;
+    width: 40px;
+    transition: width 0.2s ease-out;
+    transition: height 0.2s ease-out;
+    height: 40px;
+  }
+  #btn-back-to-top:hover {
+    color:rgb(221, 138, 12);
+    width: 50px;
+    height: 50px;
+    right: 5px;
+  }
+
+
+  /* ====================project photo*/
+  .avcollapsible{
+    width: 140px;
+    height: 120px;
+    background-color: rgb(236, 236, 236);
+    overflow: hidden;
+    float: right;
+    transition: height 0.3s ease-out, width 0.3s ease-out;
+
+  }
+  .avcollapsiblecontent {
+    width:max-content;
+    height: 100%;
+    float: right;
+    overflow: auto;
+    transition: width 0.3s ease-out;
+  }
+  .avcollapsiblecontent img {
+    float: right;
+    height: 100%;
+    transition: width 0.3s ease-out;
+  }
+
+  /* ========================= */
+
+
+
+
+  
