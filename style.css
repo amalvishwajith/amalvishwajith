@@ -7,6 +7,14 @@
     
   }
 
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+  #propic {
+    width:300px;
+    
+  }
+}
+
   #avhead .nav-item {
     /* background-image: url("assets/bg/headbg.svg");
     background-repeat: no-repeat;
@@ -24,7 +32,7 @@
   }
    
 #avstg3 img {
-    width: 70px;
+    width: 50px;
   }
 
 
@@ -39,48 +47,45 @@
   #btn-back-to-top {
     position: fixed;
     bottom: 20px;
-    right: 20px;
-    color: blue;
+    right: 10px;
+    color:dimgray;
     display: none;
+    width: 40px;
+    transition: width 0.2s ease-out;
+    transition: height 0.2s ease-out;
+    height: 40px;
+  }
+  #btn-back-to-top:hover {
+    color:rgb(221, 138, 12);
     width: 50px;
     height: 50px;
+    right: 5px;
   }
 
 
-  /* ====================TYPE */
-  .avwrapper {
-    /*This part is important for centering*/
-    display: grid;
-  }
-  
-  .avtyping-demo {
-    width: 220px;
-    animation: typing 3s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
+  /* ====================project photo*/
+  .avcollapsible{
+    width: 140px;
+    height: 120px;
+    background-color: rgb(236, 236, 236);
     overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 30px;
-    animation-iteration-count:infinite;
+    float: right;
+    transition: height 0.3s ease-out, width 0.3s ease-out;
+
   }
-  
-  @keyframes typing {
-    0% {
-        width:0px
-    }
-    50% {
-        width:360px
-    }
-    100% {
-        width:360px
-    }
+  .avcollapsiblecontent {
+    width:max-content;
+    height: 100%;
+    float: right;
+    overflow: auto;
+    transition: width 0.3s ease-out;
   }
-      
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
+  .avcollapsiblecontent img {
+    float: right;
+    height: 100%;
+    transition: width 0.3s ease-out;
   }
+
   /* ========================= */
 
 
